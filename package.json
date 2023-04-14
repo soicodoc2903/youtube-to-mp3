@@ -1,0 +1,25 @@
+{
+  "name": "video-processor",
+  "version": "1.0.1",
+  "description": "Video Processor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "D-Jukie",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^2.0.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.1.0",
+    "m3u8stream": "^0.8.6",
+    "miniget": "^4.2.2",
+    "sax": "^1.2.4"
+  }
+}
